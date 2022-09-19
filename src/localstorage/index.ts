@@ -1,7 +1,7 @@
 export const readNotes = () => {
   const response = localStorage.getItem('notes');
   if (response) {
-    return response;
+    return JSON.parse(response);
   } return null;
 };
 
