@@ -3,7 +3,7 @@ import Notes from '../components/Notes'
 
 const Home: NextPage = () => {
   return (
-    <Notes />
+    <Notes title="Bloco de Notas" />
   )
 }
 
